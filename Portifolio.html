@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        section {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .contact {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .resume-btn {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        .resume-btn:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        My Portfolio
+    </header>
+
+    <div class="container">
+        <img src="fav.jpeg" alt="Profile Image" class="profile-img">
+        <h2>Hi, I'm Ambatla Sruthika</h2>
+        <p>Welcome to my personal portfolio! Here, you will find samples of my work, skills, and my resume.</p>
+        <div class="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>To-Do List App</li>
+                <li>Chat Application</li>
+                <li>E-Commerce Website</li>
+            </ul>
+        </div>
+
+        <div class="skills">
+            <h3>Skills:</h3>
+            <p>Web Development, JavaScript, Python, React, Flask</p>
+        </div>
+
+        <div class="resume">
+            <h3>My Resume</h3>
+            <button class="resume-btn" onclick="openResume()">View Resume</button>
+        </div>
+
+        <div class="contact">
+            <h3>Contact Information</h3>
+            <p>Email: <a href="mailto:ambatlasruthikasruthika@gmail.com">ambatlasruthikasruthika@gmail.com</a></p>
+            <p>Phone: +916300958509</p>
+        </div>
+    </div>
+
+    <script>
+        function openResume() {
+            window.open('SRUTHIKA_RESUME.pdf', '_blank'); // Opens the PDF in a new tab
+        }
+    </script>
+
+</body>
+</html>
